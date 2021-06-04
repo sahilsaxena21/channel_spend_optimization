@@ -28,7 +28,7 @@ The marketing data scientist works with the marketing team to structure the prob
 ## 3. Analysis Methodology
 After the assumptions are discussed and screened through with the team, the analytics proceeds to the analysis step. The steps in the analysis phase is as summarized below:
 
-1. **Regression Model**: Develop a predictive model of CTR (unknown target variable) as a function of marketing expenditure (known input variable) to get the cost curves for each channel. Other variables like ad creative, seasonality considerations, etc. can be taken into account as well, but the team does not have adequate data for other variables at this time.
+1. **Regression Model**: Develop a predictive model of number of clicks (unknown target variable) as a function of marketing expenditure (known input variable) to get the cost curves for each channel. Other variables like ad creative, seasonality considerations, etc. can be taken into account as well, but the team does not have adequate data for other variables at this time.
 2. **Optimization Algorithm**: Use a greedy optimization algorithm to maximize the marginal number of clicks for every dollar value spent. The algorithm starts with zero spend for all channels, then repeatedly allocates a dollar to the channel that has the highest clicks-to-spend slope (from the cost curves in Step 1) at the channel’s current spend. Process is repeated until the budget is reached, and we have our optimal spend targets.
 
 
