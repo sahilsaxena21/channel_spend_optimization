@@ -22,7 +22,7 @@ The marketing data scientist works with the marketing team to structure the prob
 -	**Identify Primary Metrics**: Identify a suitable metric that acts as robust and sensitive indicator for quantifying number of the customers in the ‘Initial Consideration Set’. Several metrics were considered but the team settled on **maximizing the number of clicks** for this analysis. One of the reasons for this selection was that the number of clicks has been found to be strongly correlated with sales conversions from historic data. 
 -	**Source Data and Plan Analysis Type**: Data is sourced from sql database. Analysis will use both predictive and optimization modeling.
 -	**Validate Assumptions**: Is the historic data even relevant for the planned future marketing efforts? Are there any metrics that can be cannabailized when optimizing for clicks? The existing dataset uses paid last-touch attribution model, is this suitable? What is an acceptable performance for the predictive model? 
--	**Hypothesis**: CTR can be adequately modeled as a function of the marketing channel and the marketing spend.
+-	**Hypothesis**: Number of clicks can be adequately modeled as a function of the marketing channel and the marketing spend.
 
 
 ## 3. Analysis Methodology
