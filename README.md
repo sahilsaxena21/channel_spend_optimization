@@ -27,13 +27,13 @@ After the assumptions are discussed and screened through with the team, the anal
 
 ## 4. Results
 
-The table below provides the performance of the model
+The cross validation performance of the model is as follows:
 
-| Channel | R2 Score  |
-| ---   | :-: | 
-| Bing| 0.93 | 
-| Facebook | 0.98 |  
-| Google | 0.94 |  
+| Channel | R2 Score  | Standard Deviation | 
+| ---   | :-: | :-: | 
+| Bing| 0.93 | 0.039 | 
+| Facebook | 0.98 | 0.012 | 
+| Google | 0.94 | 0.029 | 
 
 For a marketing budget of $500, the following table provides an optimal spend across the channels
 
