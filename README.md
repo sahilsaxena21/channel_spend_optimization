@@ -1,21 +1,21 @@
 # **Channel Spend Optimization**
 
 ## 1. Problem Motivation
-Using a combination of data driven analytics and market knowledge, the leadership team has identified a strong opportunity to increase its market share within a specific market segment. The team also believes that the appropriate market lever to drive market share would be to increase **brand awareness**. 
+The leadership team has identified a strong opportunity to increase its market share within a specific market segment. The team also believes that the appropriate market lever to drive market share would be to increase **brand awareness**. 
 
 The leadership team believes in the idea of their customer behavior to purchase to resemble the McKinsey’s Consumer Decision Journey. Within this framework, they have identified huge potential for driving sales by increasing the number of target customers who consider their product. That is, increasing the number of customers who have their product in the **initial consideration set**.
 
 ![Problem Motivation](https://github.com/sahilsaxena21/channel_spend_optimization/blob/main/CDJ.png)
 
-The marketing team is poised to accomplish this directive, but they need the help from a marketing data scientist for a problem they are having. They’d like to make sure that they are using their marketing dollars in the most efficient way possible across their marketing channels. More specifically, they’d like to maximizing the number of customers in the Initial Consideration Set using their marketing budget.  
+The marketing team is poised to act on this directive, but they need the help from a marketing data scientist for a problem they are having. They’d like to make sure that they are using their marketing dollars in the most efficient way possible across their marketing channels. More specifically, they’d like to maximizing the number of customers in the Initial Consideration Set using their limited marketing budget.
 
 ## 2. Problem Structuring
 The marketing data scientist works with the marketing team to structure the problem as follows:
 
--	**Identify Primary Metrics**: Identify a suitable metric that acts as robust and sensitive indicator of quantifying the idea of the number of the customers in the ‘Initial Consideration Set’. Several metrics were considered but the team settled on maximizing the number of clicks for this analysis. One of the reasons for this selection was that the number of clicks has been found to be strongly correlated with sales conversions from historic data. 
+-	**Identify Primary Metrics**: Identify a suitable metric that acts as robust and sensitive indicator for quantifying number of the customers in the ‘Initial Consideration Set’. Several metrics were considered but the team settled on **maximizing the number of clicks** for this analysis. One of the reasons for this selection was that the number of clicks has been found to be strongly correlated with sales conversions from historic data. 
 -	**Source Data and Plan Analysis Type**: Data is sourced from sql database. Analysis will use both predictive and optimization modeling.
--	**Validate Assumptions**: Is the historic data even relevant for the planned future marketing efforts? Are there any secondary or competing metrics to keep in mind when optimizing for a single CTR metric? Is paid last-touch attribution model suitable? What is an acceptable performance for the predictive model? 
--	Hypothesis: CTR can be adequately modeled as a function of the marketing channel and the marketing spend.
+-	**Validate Assumptions**: Is the historic data even relevant for the planned future marketing efforts? Are there any metrics that can be cannabailized when optimizing for clicks? The existing dataset uses paid last-touch attribution model, is this suitable? What is an acceptable performance for the predictive model? 
+-	**Hypothesis**: CTR can be adequately modeled as a function of the marketing channel and the marketing spend.
 
 
 ## 3. Analysis Methodology
