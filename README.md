@@ -42,7 +42,7 @@ The cross validation performance of the model is as follows:
 | Facebook | 0.98 | 0.012 | 
 | Google | 0.94 | 0.029 | 
 
-For a marketing budget of $500, the following table provides an optimal spend across the channels
+For a marketing budget of $500, the optimal spend across the channels is as follows:
 
 | Channel | Optimal Ad Spend  |
 | ---   | :-: | 
