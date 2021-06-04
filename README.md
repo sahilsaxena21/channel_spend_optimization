@@ -5,7 +5,9 @@ Using a combination of data driven analytics and market knowledge, the leadershi
 
 The leadership team believes in the idea of their customer behavior to purchase to resemble the McKinsey’s Consumer Decision Journey. Within this framework, they have identified huge potential for driving sales by increasing the number of target customers who consider their product. That is, increasing the number of customers who have their product in the **initial consideration set**.
 
-[add pic here]
+![Methodology](https://github.com/sahilsaxena21/topskillsdsportfolio/blob/main/image_files/methodology.png)
+
+[Problem Motivation] (https://github.com/sahilsaxena21/channel_spend_optimization/blob/main/CDJ.png)
 
 The marketing team is poised to accomplish this directive, but they need the help from a marketing data scientist for a problem they are having. They’d like to make sure that they are using their marketing dollars in the most efficient way possible across their marketing channels. More specifically, they’d like to maximizing the number of customers in the Initial Consideration Set using their marketing budget.  
 
