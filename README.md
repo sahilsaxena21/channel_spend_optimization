@@ -7,7 +7,14 @@ The leadership team believes in the idea of their customer behavior to purchase 
 
 ![Problem Motivation](https://github.com/sahilsaxena21/channel_spend_optimization/blob/main/CDJ.png)
 
-The marketing team is poised to act on this directive, but they need the help from a marketing data scientist for a problem they are having. They’d like to make sure that they are using their marketing dollars in the most efficient way possible across their marketing channels. More specifically, they’d like to maximizing the number of customers in the Initial Consideration Set using their limited marketing budget. Currently, the team simply allocates equal spend across each channel.
+The marketing team is poised to act on this directive, but they need the help from a marketing data scientist for a problem they are having. They’d like to make sure that they are using their marketing dollars in the most efficient way possible across their marketing channels. More specifically, they’d like to maximizing the number of customers in the Initial Consideration Set using their limited marketing budget. 
+
+Currently, the team allocates the budget as follows:
+| Channel | Proportion of Budget  |
+| ---   | :-: | 
+| Bing| 2/3 | 
+| Facebook | 1/6 |  
+| Google | 1/6 |  
 
 ## 2. Problem Structuring
 The marketing data scientist works with the marketing team to structure the problem as follows:
