@@ -14,15 +14,7 @@ Currently, the team allocates the budget evenly across all 3 channels.
 ## 2. Problem Structuring
 The marketing data scientist works with the marketing team to structure the problem as follows:
 
--	**Identify Primary Metrics**: Identify a suitable metric that acts as robust and sensitive indicator for quantifying number of the customers in the ‘Initial Consideration Set’. Several metrics were considered but the team settled on **maximizing the CTR** for this analysis. The team has identified a dollar value for each click to be $1,000 using the equation E(c) = P(conversion|c) * LTV where 
-	**E(c)** is the expected revenue generated from a click, 
-	**P(conversion|c)** represents the probability of conversion given a user has clicked
-  **LTV** represents the lifetime value of the customer.
-
-
-
-
-
+-	**Identify Primary Metrics**: Identify a suitable metric that acts as robust and sensitive indicator for quantifying number of the customers in the ‘Initial Consideration Set’. Several metrics were considered but the team settled on **maximizing the CTR** for this analysis. The team has identified a dollar value for each click to be $1,000 using the equation **E(c) = P(conversion|c) * LTV** where **E(c)** is the expected revenue generated from a click, **P(conversion | c)** represents the probability of conversion given a user has clicked, and **LTV** represents the lifetime value of the customer.
 -	**Source Data and Plan Analysis Type**: Data is sourced from sql database. Analysis will use both predictive and optimization modeling.
 -	**Validate Assumptions**: Is the historic data even relevant for the planned future marketing efforts? Are there any metrics that can be cannabailized when optimizing for CTR? The existing dataset uses paid last-touch attribution, is this suitable? What is an acceptable performance for the predictive model? 
 -	**Hypothesis**: CTR can be adequately modeled as a function of the marketing spend.
