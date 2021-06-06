@@ -47,6 +47,6 @@ For a marketing budget of $5000, the optimal spend across the channels is as fol
 
 ### 5. Significance and Next Steps
 
-Findings from this effort allowed the marketing team to be more scientific about deciding how much to spend on each channel. From the lift in clicks achieved using optimized spending, the team expects to see an additional revenue of $43,000. 
+Findings from this effort allowed the marketing team to be more scientific about deciding how much to spend on each channel. From the lift in clicks achieved using optimized spending, the team expects to realize an additional revenue of $43,000. 
 
 Going forward, the marketing team will need additional help in setting up optimal campaign-level spend targets for automated bidding. A similar approach to the above can be used for helping the marketing team with this decision as well. Moreover, other variables like ad creative, seasonality considerations, etc. can be taken into account as well to further improve the model R2 score.
