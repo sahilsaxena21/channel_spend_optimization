@@ -43,7 +43,6 @@ Utilizing the predictive model, the optimal spend across the channels for a mark
 | Bing| $400 | 
 | Facebook | $2,200 |  
 | Google | $2,400 |  
-| Total Budget | $5000 | 
 
 ### 5. Significance and Next Steps
 
