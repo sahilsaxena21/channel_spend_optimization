@@ -22,8 +22,8 @@ The marketing data scientist works with the marketing team to structure the prob
 ## 3. Data
 The following summarizes key findings and assumptions:
 
-- Existing dataset of CTR vs. spending is available.
-- It is known each ad campaign for any channel generates 1,000 impressions.
+- Existing dataset of CTR vs. campaign ad spend is available.
+- Expected value of the number of impressions for each ad campgaign is 1,000 impressions.
 - The team has identified that each click generates an expected revenue of $1,000 using the equation **E(c) = P(conversion|c) * LTV** where **E(c)** is the expected revenue generated from a click, **P(conversion | c)** represents the probability of conversion given a user has clicked, and **LTV** represents the lifetime value of the customer.
 
 ## 4. Analysis Methodology
