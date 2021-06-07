@@ -52,7 +52,7 @@ Utilizing the predictive model, the optimal spend across the channels for a mark
 
 Using the optimized approach, we achieve a lift of **43 clicks**.
 
-### 6. Significance and Next Steps
+## 6. Significance and Next Steps
 
 Findings from this effort allowed the marketing team to be more scientific about deciding how much to spend on each channel. From the lift in clicks achieved using optimized spending, the team expects to realize an additional revenue of **$43,000** from each campaign.
 
