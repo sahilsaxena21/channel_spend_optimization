@@ -54,6 +54,6 @@ Using the optimized approach, we achieve a lift of **43 clicks**.
 
 ## 6. Significance and Next Steps
 
-Findings from this effort allowed the marketing team to be more scientific about deciding how much to spend on each channel. From the lift in clicks achieved using optimized spending, the team expects to realize an additional revenue of **$43,000** from each campaign.
+Findings from this effort allowed the marketing team to be more scientific about deciding how much to spend on each channel. From the lift in clicks, the team expects to realize an additional revenue of **$43,000** from each campaign.
 
-Going forward, the marketing team will need additional help in setting up optimal campaign-level spend targets for automated bidding. A similar approach to the above can be used for helping the marketing team with this decision as well. Moreover, other variables like ad creative, seasonality considerations, etc. can be taken into account as well to further improve the model R2 score.
+Going forward, the marketing team will need additional help in setting up optimal campaign-level spend targets for automated bidding. A similar approach to the above can be used for helping the marketing team with this decision as well. Moreover, other variables like ad creative, seasonality considerations, etc. can also be taken into account to further improve the R2 score of the predicted cost curves.
