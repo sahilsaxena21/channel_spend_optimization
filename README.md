@@ -19,14 +19,19 @@ The marketing data scientist works with the marketing team to structure the prob
 -	**Validate Assumptions**: Is the historic data even relevant for the planned future marketing efforts? Are there any metrics that can be cannabailized when optimizing for CTR? The existing dataset uses paid last-touch attribution, is this suitable? What is an acceptable performance for the predictive model? 
 -	**Hypothesis**: CTR can be adequately modeled as a function of the marketing spend.
 
+## 3. Data
+The following summarizes key findings from existing data:
 
-## 3. Analysis Methodology
+Existing data 
+Each campaign 1,000 impressions.
+
+## 4. Analysis Methodology
 After the assumptions are discussed and screened by the team, the project proceeds to the analysis phase. The analytical approach is as summarized below:
 
 1. **Regression Model**: Develop a predictive model for CTR (unknown target variable) as a function of marketing expenditure (known input variable) to get the cost curves for each channel. 
 2. **Optimization Algorithm**: Use a greedy optimization algorithm to maximize the marginal CTR for every dollar value spent. The algorithm starts with zero spend for all channels, then repeatedly allocates a dollar to the channel that has the highest CTR-to-spend slope (from the cost curves in Step 1) at the channel’s current spend. Process is repeated until the budget is reached, and we have our optimal spend targets.
 
-## 4. Results
+## 5. Results
 
 The cross validation performance of the predictive cost curve model for each channel is as follows:
 
@@ -44,7 +49,9 @@ Utilizing the predictive model, the optimal spend across the channels for a mark
 | Facebook | $2,200 |  
 | Google | $2,400 |  
 
-### 5. Significance and Next Steps
+Using the optimized approach, the lift in the number of clicks (compared to existing methodology) is 43 clicks.
+
+### 6. Significance and Next Steps
 
 Findings from this effort allowed the marketing team to be more scientific about deciding how much to spend on each channel. From the lift in clicks achieved using optimized spending, the team expects to realize an additional revenue of $43,000. 
 
