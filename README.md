@@ -32,7 +32,7 @@ After the assumptions are discussed and screened by the team, the project procee
 1. **Regression Model**: Develop a predictive model for CTR (unknown target variable) as a function of marketing expenditure (known input variable) to get the cost curves for each channel. 
 2. **Optimization Algorithm**: Use a greedy optimization algorithm to maximize the marginal CTR for every dollar value spent. The algorithm starts with zero spend for all channels, then repeatedly allocates a dollar to the channel that has the highest CTR-to-spend slope (from the cost curves in Step 1) at the channel’s current spend. Process is repeated until the budget is reached, and we have our optimal spend targets.
 
-## 5. Results
+## 5. Key Results
 
 The cross validation performance of the predictive cost curve model for each channel is as follows:
 
@@ -50,7 +50,7 @@ Utilizing the predictive model, the optimal spend across the channels for a mark
 | Facebook | $2,200 |  
 | Google | $2,400 |  
 
-Using the optimized approach, the lift in the number of clicks (compared to existing methodology) is 43 clicks.
+Using the optimized approach, we achieve a lift of **43 clicks**.
 
 ### 6. Significance and Next Steps
 
