@@ -28,7 +28,7 @@ The following summarizes relevant findings to contexualize the problem:
 ## 4. Analysis Methodology
 After the assumptions are screened by the team for acceptability, the project proceeds to the analysis phase. The analytical approach is as summarized below:
 
-1. **Regression Model**: Develop a regression model for CTR (unknown target variable) as a function of marketing expenditure (known input variable) to get the cost curves for each channel. A regression model is acceptable if it is within 10% of the 
+1. **Regression Model**: Develop a regression model for CTR (unknown target variable) as a function of marketing expenditure (known input variable) to get the cost curves for each channel. Predictions should be within +/- 10% to be deemed a good fit. 
 2. **Optimization Algorithm**: Use a greedy optimization algorithm to maximize the marginal CTR for every dollar value spent. The algorithm starts with zero spend for all channels, then iteratively allocates a dollar to the channel that has the highest cost curve slope at the channel's current spend. The algorithm continues to allocate spending across the channels, until the budget is reached, and we have our optimal spend targets.
 
 ## 5. Key Results
