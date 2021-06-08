@@ -7,7 +7,7 @@ The leadership team believes that their target segment's journey-to-purchase is 
 
 ![Problem Motivation](https://github.com/sahilsaxena21/channel_spend_optimization/blob/main/CDJ.png)
 
-The marketing team is poised to act on this directive, but they need the help from a marketing data scientist for a problem they are having. They’d like to make sure that they are using their marketing dollars in the most efficient way possible across their marketing channels. More specifically, they’d like to maximizing the number of customers in the Initial Consideration Set from their marketing budget of $5,000. 
+The marketing team is poised to act on this directive, but they need the help from a marketing data scientist for a problem they are having. They’d like to make sure that they are using their marketing budget ($5,000) in the most efficient way possible across their marketing channels. 
 
 Currently, the team allocates the budget evenly across all 3 channels.
 
@@ -33,7 +33,7 @@ After the assumptions are screened by the team for acceptability, the project pr
 
 ## 5. Key Results
 
-The cross validation performance of the cost curve regression model for each channel is as follows:
+The cross validation performance of the cost curve regression model for each channel is as follows. The hypothesis that 
 
 | Channel | R2 Score  | Standard Deviation | 
 | ---   | :-: | :-: | 
