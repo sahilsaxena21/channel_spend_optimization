@@ -7,7 +7,7 @@ The leadership team believes that their target segment's journey to purchase fol
 
 ![Problem Motivation](https://github.com/sahilsaxena21/channel_spend_optimization/blob/main/CDJ.png)
 
-The marketing team is poised to act on this directive, but they need the help from a marketing data scientist for a problem they are having. They’d like to make sure that they are using their marketing dollars in the most efficient way possible across their marketing channels. More specifically, they’d like to maximizing the number of customers in the Initial Consideration Set from their marketing budget. 
+The marketing team is poised to act on this directive, but they need the help from a marketing data scientist for a problem they are having. They’d like to make sure that they are using their marketing dollars in the most efficient way possible across their marketing channels. More specifically, they’d like to maximizing the number of customers in the Initial Consideration Set from their marketing budget of $5,000. 
 
 Currently, the team allocates the budget evenly across all 3 channels.
 
@@ -33,7 +33,7 @@ After the assumptions are screened by the team for acceptability, the project pr
 
 ## 5. Key Results
 
-The cross validation performance of the predictive cost curve model for each channel is as follows:
+The cross validation performance of the cost curve regression model for each channel is as follows:
 
 | Channel | R2 Score  | Standard Deviation | 
 | ---   | :-: | :-: | 
@@ -41,7 +41,7 @@ The cross validation performance of the predictive cost curve model for each cha
 | Facebook | 0.95 | 0.06 | 
 | Google | 0.81 | 0.09 | 
 
-Utilizing the predictive model, the optimal spend across the channels for a marketing budget of $5,000 is as follows:
+Utilizing the cost curves, optimal spend across the channels for a marketing budget of $5,000 is as follows:
 
 | Channel | Optimal Ad Spend  |
 | ---   | :-: | 
@@ -49,10 +49,8 @@ Utilizing the predictive model, the optimal spend across the channels for a mark
 | Facebook | $2,200 |  
 | Google | $2,400 |  
 
-Using the optimized approach, we achieve a lift of **43 clicks**.
+Using the optimized approach, we achieve a lift of **43 clicks**. From the lift in clicks, the team expects to realize an additional revenue of **$43,000** from each campaign.
 
-## 6. Significance and Next Steps
-
-Findings from this effort allowed the marketing team to be more scientific about deciding how much to spend on each channel. From the lift in clicks, the team expects to realize an additional revenue of **$43,000** from each campaign.
+## 6. Next Steps
 
 Going forward, the marketing team will need additional help in setting up optimal campaign-level spend targets for automated bidding. A similar approach to the above can be used for helping the marketing team with this decision as well. Moreover, other variables like ad creative, seasonality considerations, etc. can also be taken into account to further improve the R2 score of the predicted cost curves.
