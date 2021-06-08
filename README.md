@@ -3,34 +3,33 @@
 ## 1. Problem Motivation
 The leadership team has identified a strong opportunity to increase its market share within a specific market segment. The team also believes that the appropriate market lever to drive market share would be to increase **brand awareness**. 
 
-The leadership team believes in the idea of their customer behavior to purchase to resemble the McKinsey’s Consumer Decision Journey. Within this framework, they have identified huge potential for driving sales by increasing the number of target customers who consider their product. That is, increasing the number of customers who have their product in the **initial consideration set**.
+The leadership team believes that their target segment's journey to purchase follows the McKinsey’s Consumer Decision Journey. Within this framework, they have identified huge potential for driving sales by increasing the number of target customers who consider their product i.e. increasing the number of customers in the **initial consideration set**.
 
 ![Problem Motivation](https://github.com/sahilsaxena21/channel_spend_optimization/blob/main/CDJ.png)
 
-The marketing team is poised to act on this directive, but they need the help from a marketing data scientist for a problem they are having. They’d like to make sure that they are using their marketing dollars in the most efficient way possible across their marketing channels. More specifically, they’d like to maximizing the number of customers in the Initial Consideration Set using their limited marketing budget. 
+The marketing team is poised to act on this directive, but they need the help from a marketing data scientist for a problem they are having. They’d like to make sure that they are using their marketing dollars in the most efficient way possible across their marketing channels. More specifically, they’d like to maximizing the number of customers in the Initial Consideration Set from their marketing budget. 
 
 Currently, the team allocates the budget evenly across all 3 channels.
 
 ## 2. Problem Structuring
 The marketing data scientist works with the marketing team to structure the problem as follows:
 
--	**Identify Metric**: Identify a suitable metric that acts as robust and sensitive indicator for quantifying number of the customers in the ‘Initial Consideration Set’. Several metrics were considered but the team settled on **maximizing the CTR** for this analysis.
+-	**Identify Metric**: Identify a suitable metric that acts as robust and sensitive indicator for quantifying the number of the customers in the ‘Initial Consideration Set’. Several metrics were considered, but the team settled on **maximizing the CTR** for this analysis. 
 -	**Source Data and Plan Analysis Type**: Data is sourced from sql database. Analysis will use both predictive and optimization modeling.
--	**Validate Assumptions**: Is the historic data even relevant for the planned future marketing efforts? Are there any metrics that can be cannabailized when optimizing for CTR? The existing dataset uses paid last-touch attribution, is this suitable? What is an acceptable performance for the predictive model? 
--	**Hypothesis**: CTR can be adequately modeled as a function of the marketing spend.
+-	**Validate Assumptions**: Is the historic data relevant for the planned future marketing efforts? Are there any metrics that can be cannabailized when optimizing for CTR (e.g. brand reputation from possible click-baiting)? Moreover, the existing dataset uses paid last-touch attribution, is this suitable?
+-	**Analysis Hypothesis**: CTR can be modeled as a function of the marketing spend.
 
 ## 3. Data
-The following summarizes key findings and assumptions:
-
+The following summarizes relevant findings to contexualize the problem:
 - Existing dataset of CTR vs. campaign ad spend is available.
-- Expected value of the number of impressions for each ad campgaign is 1,000 impressions.
-- The team has identified that each click generates an expected revenue of $1,000 using the equation **E(c) = P(conversion|c) * LTV** where **E(c)** is the expected revenue generated from a click, **P(conversion | c)** represents the probability of conversion given a user has clicked, and **LTV** represents the lifetime value of the customer.
+- Expected value of the number of impressions per ad campaign has been found to be around a 1,000.
+- Each click is worth a $1,000 to the business. This was calculated using the equation **E(c) = P(conversion|c) * LTV** where **E(c)** is the expected revenue generated from a click, **P(conversion | c)** represents the probability of conversion given a user has clicked, and **LTV** represents the lifetime value of the customer.
 
 ## 4. Analysis Methodology
-After the assumptions are discussed and screened by the team, the project proceeds to the analysis phase. The analytical approach is as summarized below:
+After the assumptions are screened by the team for acceptability, the project proceeds to the analysis phase. The analytical approach is as summarized below:
 
-1. **Regression Model**: Develop a predictive model for CTR (unknown target variable) as a function of marketing expenditure (known input variable) to get the cost curves for each channel. 
-2. **Optimization Algorithm**: Use a greedy optimization algorithm to maximize the marginal CTR for every dollar value spent. The algorithm starts with zero spend for all channels, then repeatedly allocates a dollar to the channel that has the highest CTR-to-spend slope (from the cost curves in Step 1) at the channel’s current spend. Process is repeated until the budget is reached, and we have our optimal spend targets.
+1. **Regression Model**: Develop a regression model for CTR (unknown target variable) as a function of marketing expenditure (known input variable) to get the cost curves for each channel. 
+2. **Optimization Algorithm**: Use a greedy optimization algorithm to maximize the marginal CTR for every dollar value spent. The algorithm starts with zero spend for all channels, then iteratively allocates a dollar to the channel that has the highest cost curve slope at the channel's current spend. The algorithm continues to allocate spending across the channels, until the budget is reached, and we have our optimal spend targets.
 
 ## 5. Key Results
 
