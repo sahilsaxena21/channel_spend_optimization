@@ -49,7 +49,7 @@ Utilizing the cost curves, optimal spend across the channels for a marketing bud
 | Facebook | $2,200 |  
 | Google | $2,400 |  
 
-By spending marketing dollars more efficiently, we achieve a lift of **43 clicks**. From the lift in clicks, the team expects to realize an additional revenue of **$43,000** from each campaign.
+By spending marketing dollars more efficiently, we achieve a lift of **43 clicks**. The expected dollar value benefit from this lift is an additional revenue of **$43,000** from each campaign.
 
 ## 6. Next Steps
 
