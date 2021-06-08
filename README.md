@@ -28,18 +28,18 @@ The following summarizes relevant findings to contexualize the problem:
 ## 4. Analysis Methodology
 After the assumptions are screened by the team for acceptability, the project proceeds to the analysis phase. The analytical approach is as summarized below:
 
-1. **Regression Model**: Develop a regression model for CTR (unknown target variable) as a function of marketing expenditure (known input variable) to get the cost curves for each channel. Predictions should be within +/- 10% to be deemed a good fit. 
+1. **Regression Model**: Develop a regression model for CTR (unknown target variable) as a function of marketing expenditure (known input variable) to get the cost curves for each channel. Regression model should be within +/- 10% to be deemed a good fit. 
 2. **Optimization Algorithm**: Use a greedy optimization algorithm to maximize the marginal CTR for every dollar value spent. The algorithm starts with zero spend for all channels, then iteratively allocates a dollar to the channel that has the highest cost curve slope at the channel's current spend. The algorithm continues to allocate spending across the channels, until the budget is reached, and we have our optimal spend targets.
 
 ## 5. Key Results
 
-The cross validation performance of the cost curve regression model for each channel is as follows. The hypothesis that 
+The cross validation performance of the cost curve regression model for each channel is as follows. All models meet our acceptability criterion of +/- 10%. Moreover, performance of all models were found to be robust, as per the standard deviation results of a 5-fold cross validation.  
 
-| Channel | R2 Score  | Standard Deviation | 
+| Channel | Standard Error of Regression | Standard Deviation of Adjusted R2 | 
 | ---   | :-: | :-: | 
-| Bing| 0.95 | 0.03 | 
-| Facebook | 0.95 | 0.06 | 
-| Google | 0.81 | 0.09 | 
+| Bing| 6% | 0.03 | 
+| Facebook | 5% | 0.002 | 
+| Google | 1% | 0.09 | 
 
 Utilizing the cost curves, optimal spend across the channels for a marketing budget of $5,000 is as follows:
 
