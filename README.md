@@ -1,7 +1,7 @@
 # **Channel Spend Optimization**
 
 ## 1. Problem Motivation
-The leadership team has identified a strong opportunity to increase its market share within a specific market segment. The team also believes that the appropriate market lever to drive market share would be to increase **brand awareness**. 
+A hypothetical leadership team has identified a strong opportunity to increase its market share within a specific market segment. The team also believes that the appropriate market lever to drive market share would be to increase **brand awareness**. 
 
 The leadership team believes that their target segment's journey to purchase follows the McKinsey’s Consumer Decision Journey. Within this framework, they have identified huge potential for driving sales by increasing the number of target customers who consider their product i.e. increasing the number of customers in the **initial consideration set**.
 
@@ -49,7 +49,7 @@ Utilizing the cost curves, optimal spend across the channels for a marketing bud
 | Facebook | $2,200 |  
 | Google | $2,400 |  
 
-Using the optimized approach, we achieve a lift of **43 clicks**. From the lift in clicks, the team expects to realize an additional revenue of **$43,000** from each campaign.
+By spending marketing dollars more efficiently, we achieve a lift of **43 clicks**. From the lift in clicks, the team expects to realize an additional revenue of **$43,000** from each campaign.
 
 ## 6. Next Steps
 
