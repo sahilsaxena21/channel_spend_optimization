@@ -3,7 +3,7 @@
 ## 1. Problem Motivation
 A hypothetical leadership team has identified a strong opportunity to increase its market share within a specific market segment. The team also believes that the appropriate market lever to drive market share would be to increase **brand awareness**. 
 
-The leadership team believes that their target segment's journey to purchase follows the McKinsey’s Consumer Decision Journey. Within this framework, they have identified huge potential for driving sales by increasing the number of target customers who consider their product i.e. increasing the number of customers in the **initial consideration set**.
+The leadership team believes that their target segment's journey-to-purchase is aligned with the McKinsey’s Consumer Decision Journey. Within this framework, they have identified huge potential for driving sales by increasing the number of target customers who consider their product i.e. increasing the number of customers in the **initial consideration set**.
 
 ![Problem Motivation](https://github.com/sahilsaxena21/channel_spend_optimization/blob/main/CDJ.png)
 
