@@ -53,4 +53,4 @@ By spending marketing dollars more efficiently, we achieve a lift of **43 clicks
 
 ## 6. Next Steps
 
-Going forward, the marketing team will need additional help in setting up optimal campaign-level spend targets for automated bidding. A similar approach to the above can be used for helping the marketing team with this decision as well. Moreover, other variables like ad creative, seasonality considerations, etc. can also be taken into account to further improve the R2 score of the predicted cost curves.
+Going forward, the marketing team will need additional help in setting up optimal campaign-level spend targets for automated bidding. A similar approach to the above can be used for helping the marketing team with this decision as well. Moreover, other variables like ad creative, seasonality considerations, etc. can also be taken into account to further improve the standard error of regression of the regressed cost curves.
