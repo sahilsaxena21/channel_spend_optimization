@@ -17,7 +17,7 @@ The marketing data scientist works with the marketing team to structure the prob
 -	**Identify Metric**: Identify a suitable metric that acts as robust and sensitive indicator for quantifying the number of the customers in the ‘Initial Consideration Set’. Several metrics were considered, but the team settled on **maximizing the CTR** for this analysis. 
 -	**Source Data and Plan Analysis Type**: Data is sourced from sql database. Analysis will use both predictive and optimization modeling.
 -	**Validate Assumptions**: Is the historic data relevant for the planned future marketing efforts? Are there any metrics that can be cannabailized when optimizing for CTR (e.g. brand reputation from possible click-baiting)? Moreover, the existing dataset uses paid last-touch attribution, is this suitable?
--	**Analysis Hypothesis**: CTR can be modeled as a function of the marketing spend.
+-	**Analysis Hypothesis**: CTR can be modeled as a exponential function to marketing spend.
 
 ## 3. Data
 The following summarizes relevant findings to contexualize the problem:
